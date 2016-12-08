@@ -9,7 +9,7 @@
   "validations": [],
   "relations": {
     "campaigns": {
-      "type": "hasMany",
+      "type": "hasAndBelongsToMany",
       "model": "Campaign",
       "foreignKey": "customerId"
     }
